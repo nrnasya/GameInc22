@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper   {width: 1500px; padding-bottom: 500px}
+
+#faq1      {width: 500px; float: left; margin: 40px; padding-left: 120px; padding-bottom: 20px}
+#faq1 p    {font-size: 15px; color:  white; text-align: justify}
+
+#faq2      {width: 500px; float: left; margin: 40px; padding-left: 120px;padding-bottom: 20px}
+#faq2 p    {font-size: 15px; color:  white; text-align: justify}
+
+#faq3      {width: 500px; float: left; margin: 40px; padding-left: 120px; padding-bottom: 20px}
+#faq3 p    {font-size: 15px; color:  white; text-align: justify}
+
+#faq4      {width: 500px; float: left; margin: 40px; padding-left: 120px; padding-bottom: 20px}
+#faq4 p    {font-size: 15px; color:  white; text-align: justify}

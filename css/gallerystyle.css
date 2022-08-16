@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Headings */
+h1, h2, h3, h4, h5, h6, h7, h8 { font-weight: bold; color: #000; }
+
+h1 { font-size:50px; color: #9c2225; margin-top: 20px; margin-bottom: 20px; padding-left: 98px; }
+h2 { font-size:50px; color: #9c2225; margin-top: 20px; margin-bottom: 20px; padding-left: 500px; padding-top: 70px; padding-bottom: 50px}
+
+/*Container*/
+#wrapper   {width: 1500px; padding-bottom: 300px; padding-top: 90px; text-align: center}
+
+#gallery1   {float: left; text-align: center; margin-left: 20px; margin-right: 20px;padding-left: 110px}
+#gallery1 ul li {font-size: 20px; text-align: center }
+
+#gallery2   {float: left; text-align: center; margin-left: 20px; margin-right: 20px;padding-left: 110px}
+#gallery2 ul li {font-size: 20px; text-align: center }
+
+#gallery2   {float: left; text-align: center; margin-left: 20px; margin-right: 20px;padding-left: 110px}
+#gallery2 ul li {font-size: 20px; text-align: center }
+
+#gallery3   {float: left; text-align: center;margin-left: 20px; margin-right: 20px; padding-left: 110px}
+#gallery3 ul li {font-size: 20px; text-align: center }
+
+#gallery4   {float: left; text-align: center;margin-left: 20px; margin-right: 20px; padding-left: 110px}
+#gallery4 ul li {font-size: 20px; text-align: center }
+
+#sidenavi {float: left; margin: 20px; background: #000123}
+#sidenavi ul li a {font-size: 30px}
+
+#2022image  {float: right; margin: 20px; }
+
+#2021image  {float: right; margin: 20px; }
+
+#2020image  {float: right; margin: 20px; }
+
+#2019image  {float: right; margin: 20px; }
+
+
+

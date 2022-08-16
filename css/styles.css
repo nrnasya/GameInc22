@@ -1,0 +1,342 @@
+@import url("stylesheet.css");
+/* Timothy Framework - www.timothyframework.com */
+/* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
+
+
+/* Color Legend */
+
+
+/* Reset */
+
+
+html, body { margin: 0; padding: 0; border: 0;  
+				background: transparent; font-size:10px; }
+
+div, span, article, aside, footer, header, hgroup, nav, section,
+h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, 
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	}
+
+img 	{ margin:0; padding:0; border:0; }
+
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0; padding: 0; border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	}
+	
+table { border-collapse: collapse; border-spacing: 0; }
+	
+input, select, textarea, form, fieldset {
+	margin: 0; padding: 0; border: 0;
+	}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section { 
+	display:block; }
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike { 
+	font-family: 'Montserrat Bold';
+	font-size:100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%; 
+	text-indent: 0;
+	text-decoration: none;
+	text-align: left;
+	color: #000;
+	}
+
+ol, ul { list-style: none; }
+
+
+/* Background */
+
+html 	{	}
+body	{background-image: url("../picture/download.jpg"); background-color:#000000; height: 100%}
+
+
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6, h7, h8 { font-weight: bold; color: #000; }
+
+h1 { font-size:50px; color: #9c2225; margin-top: 20px; margin-bottom: 20px; padding-left: 98px; }
+h2 { font-size:20px; color: white}
+h3 { font-size:50px; color: #9c2225; margin-top: 20px; margin-bottom: 20px; padding-left: 180px;}
+h4 { font-size:24px; color: #BB5E00; margin-top: 30px; margin-bottom: 20px; border-bottom: 0.2px #000 solid; padding-bottom: 20px;}
+h5 { font-size:14px; color: #FFFFFF }
+h6 { font-size:14px; color: #FFFFFF}
+h7 {font-family: "Montserrat Bold";
+    font-size: 60px;
+    color: #EB0E12;
+    float: right;
+    margin-right: 300px;
+    margin-top: 0px;}
+h8 {font-family: "Montserrat Bold";
+    font-size: 25px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 300px;
+    margin-top: 0px;
+    margin-left: 70px;}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin: 0; }
+
+
+
+/* Text Elements */
+
+p           	{ color:#000; font-size:12px; line-height:150%;  }
+p .left			{ margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p .right 		{ margin: 1.5em 0 1.5em 1.5em; padding: 0; }
+
+a           	{   }
+a:link			{ color: #FFFFFF;  }
+a:visited		{ color: #FFFFFF;  }
+a:active		{ color: #CC8425;  }
+a:focus			{ color: #CC8425;  }
+a:hover     	{ color: #C20000;  }
+a.current       { color: #CC8425; }
+
+blockquote  	{ color:#000; font-size:12px; }
+
+strong      	{ font-weight: bold; }
+em		      	{ font-style: italic; }
+
+/* Images */
+
+
+
+/* Lists */
+
+ul          	{  }
+ol          	{ list-style-type:decimal; }
+
+ul li		    { color:#000; font-size:12px; }
+ol li	     	{ color:#000; font-size:12px; }
+
+dl          	{  	}
+dt       		{  	}
+dd          	{ 	}
+
+
+
+/* Tables */
+
+table       	{ width:100%; }
+
+tr				{	}
+.odd			{ background-color:#eee; }
+.even			{ background-color:#fff; }
+
+th          	{ font-weight: bold; }
+thead, th    	{ background: #ccc; }
+
+tbody			{   }
+
+th,td,caption 	{ 	}
+caption 		{ 	}
+
+tfoot       	{	}
+.tfooter		{ background-color:#ccc; text-align:center; font-style:italic; }
+
+caption     	{ background: #efefef; }
+
+
+
+/* Miscellaneous */
+
+sup, sub    	{ line-height: 0; }
+
+abbr, acronym   { border-bottom: 1px dotted #666; }
+address     	{ 	 }
+del         	{ background:#FFCECE; color:#f00; }
+
+code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
+					font-family:"Courier New", Courier, monospace; font-size:12px; font-weight:normal; line-height:150%;	}
+
+
+/* Containers */
+
+#Topnav 			{ float: right ; padding: 20px; }
+
+#Topnav ul li		{ display: inline;font-size: 20px; padding:0px 15px;}
+
+#Banner 			{ padding-left: 550px; margin-top: 50px }
+
+#Banner2 			{ padding-top: 70px; padding-left: 630px; margin-top: 50px }
+
+#Content 	        { font-size: 15px; padding-left: 707px; padding-bottom: 60px; padding-top: 10px; width: 680px; margin-top: 10px; }
+
+#Content p          { margin: 15px 0px; }
+
+#Content2 	        { width: 800px; margin-top: 10px; padding-left: 340px; padding-bottom: 40px}
+
+#Content2 p         { font-size: 14px; margin-left: 15px; color: white; text-align: center;}
+
+#ContentC           { padding-top: 50px; padding-bottom: 30px; padding-left: 255px}
+
+#ContentC ul li     { display: inline;font-size: 30px; padding:0px 19px; margin-left: 70px; float: center }
+
+#ContentZ 			{padding-left: 200px;
+                     padding-top: 25px;
+                     padding-bottom: 0vmax;
+                     padding-right: 0px;
+	                 width: 70%;}
+
+#ContentD           {width: 1000px; padding-left: 321px; padding-top: 30px; padding-bottom: 180px; display: inline}
+
+#ContentD  a        {color: white;}
+
+#ContentD  a:link		{ color: #FFFFFF;  }
+#ContentD  a:visited	{ color: #FFFFFF;  }
+#ContentD  a:active		{ color: #CC8425;  }
+#ContentD  a:focus	    { color: #CC8425;  }
+#ContentD  a:hover     	{ color: #C20000;  }
+#ContentD  a.current    { color: #CC8425;  }
+
+ContentD  p         {color: #FFFFFF}
+
+#ContentD img       {margin-bottom: 150px}
+
+#News               {margin: 15px 0px; padding-left: 230px; padding-top: 70px; }
+
+#Ourgames           {margin: 15px 0px; padding-left: 500px; padding-top: 70px; }
+
+#faq                {margin: 15px 0px; padding-left: 600px; padding-top: 70px; }
+
+#faq p              {font-size:18px; color: #9c2225; padding-left: 58px}
+
+#Gallery            {margin: 15px 0px; padding-left: 350px; padding-top: 70px; }
+
+#Rightnav 			{ float: right; width: 200px; margin-top: 45px; }
+
+#Rightnav p         { margin: 15px 0px;}
+
+#KananNav			{ font-family: "Montserrat Bold"; font-size: 0px; color: #FFFFFF; float:right;  width: 1000px; margin-top: 0px; }
+
+#Footer			    { clear:both;  margin-bottom: 25px; text-align: center; padding: 80px;  }
+
+#Footer2			{ clear:both;  margin-top: 25px; text-align: left; padding-top: 20px;  padding-left: 40px;
+	                  padding-bottom: 20px; background-image: radial-gradient(#000000, #000123)}
+
+#Footer2 p          { width: 600px; font-size: 13px; margin: 15px 0px; color: #FFFFFF; text-align: justify }
+
+#outer              { background-color:white; width:1000px; margin: 0px auto;}
+
+
+/* Layout Extra */
+
+
+
+
+/* Navigation Extra */
+
+
+
+/* Forms */
+
+form ol { list-style-type:none; }
+
+form 	{ text-align:left; margin:20px;	}
+
+label 	{ 
+		float: left; width: 150px; margin-top:5px;
+		text-align:right; display:block; background:none; font-weight:bold;
+		}
+	
+submit	{ background:none; 	}
+
+input 	{ 
+		width: 280px; margin:0 0 16px 10px;
+		border:1px #bbb solid; padding:5px; background:none; 
+		}
+		
+input:focus, textarea:focus	{ background-color:#BFEBFF; }
+
+textarea {
+		width: 280px; height: 150px; margin:0 0 16px 10px;
+		border:1px #bbb solid; padding:5px; background:none; 
+		}
+
+select { margin-bottom:20px;	}
+	
+.month { margin-left:155px;	}
+
+.submit {
+		width:90px; height:25px;
+		margin-left:160px;
+		font-size:12px;
+		}
+
+br		{ clear: left; 	}
+
+.clear	{ clear:both; }
+
+
+/* Miscellaneous  */
+.type           {font-size: 25px; color: #FFFFFF}
+.imaging        {width: 9px; height:9px;}
+.imageframe     {border: 2px #ccc solid; padding: 5px; margin: 10px; }
+.imagebox       {border: 2px #ccc solid; padding: 4px; margin: 7px; width: 140px  }
+.specificText   {font-size: 25px; margin: 45px;}
+.text2          {margin: 45px; }
+.date           { font-weight: bold; margin-bottom: 3px; color: #BB5E00}
+.copyright-text	{ font-size:80%; font-style:italic; color:#333; }
+.footer-text	{ font-size:80%; font-style:normal; color:#666; }
+
+.title			{ font-size:18px; font-weight:bold; color:#333;  }
+.subtitle		{ font-size:14px; font-style:italic; color:#333;  }
+
+.artist			{ font-size:16px; font-weight:bold; color:#333;  }
+.author			{ font-size:14px; font-weight:bold; color:#555;  }
+.editor			{ font-size:14px; font-style:italic; color:#555;  }
+
+.pub-date		{ font-size:10px; font-style:italic; color:#555; }
+.article-date	{ font-size:10px; font-style:italic; color:#555;  }
+.location		{ font-size:10px; font-style:italic; color:#555;  }
+
+.float-right	{ float:right; }
+.float-left		{ float:left; }
+.clear			{ clear:both; }
+
+.hide			{ display:none; }
+.block			{ display:block; }
+.inline			{ display:inline; }
+
+.first			{ font-weight:bold; }
+.last			{ font-weight:bold; }
+.left			{ font-weight:bold; text-align:left; }
+.right			{ font-weight:bold; text-align:right; }
+
+.added      	{ background:#D7D7FF; }
+.removed    	{ background:#FFCECE; color:#f00; }
+.changed		{ background:#FFB; }
+
+
+/* Success, info, notice and error/alert boxes - from Blueprint CSS Framework */
+
+.error, .alert, .notice, .success, .info {
+	padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert 	{ background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+	
+.notice			{ background: #fff6bf; color: #514721; border-color: #ffd324; }
+	
+.success   		{ background: #e6efc2; color: #264409; border-color: #c6d880; }
+	
+.info 			{ background: #d5edf8; color: #205791; border-color: #92cae4; }
+	
+.error a 	{ color: #8a1f11; }
+.alert a 	{ color: #8a1f11; }
+	
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+.info a		{ color: #205791; }
+
+
